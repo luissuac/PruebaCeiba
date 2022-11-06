@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cRv-1h-g8T">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="JEM-Nr-1vK">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="cRv-1h-g8T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yuj-OJ-6PP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xi1-CL-sPR">
+                                <rect key="frame" x="0.0" y="4" width="414" height="899"/>
+                                <color key="backgroundColor" red="0.070289708940000001" green="0.46113250480000001" blue="0.26683748550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prueba Ingreso Ceiba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BRf-69-htG">
+                                <rect key="frame" x="68.5" y="454" width="277" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BRf-69-htG" secondAttribute="height" multiplier="277:36" constant="-92.333333333333371" id="Wc0-Rh-OBh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoCeibaSoftware-horizontal-Positivo" translatesAutoresizingMaskIntoConstraints="NO" id="526-kJ-mex">
+                                <rect key="frame" x="66" y="300" width="279" height="145.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="526-kJ-mex" secondAttribute="height" multiplier="48:25" id="8g3-5e-PoK"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GUb-NT-9Og"/>
+                        <constraints>
+                            <constraint firstItem="xi1-CL-sPR" firstAttribute="trailing" secondItem="GUb-NT-9Og" secondAttribute="trailing" id="IYu-3L-d5q"/>
+                            <constraint firstItem="BRf-69-htG" firstAttribute="leading" secondItem="GUb-NT-9Og" secondAttribute="leading" constant="68.5" id="NJq-mW-6Fe"/>
+                            <constraint firstItem="GUb-NT-9Og" firstAttribute="trailing" secondItem="526-kJ-mex" secondAttribute="trailing" constant="69" id="Nnh-Um-BMe"/>
+                            <constraint firstItem="526-kJ-mex" firstAttribute="leading" secondItem="GUb-NT-9Og" secondAttribute="leading" constant="66" id="V1a-bo-DxP"/>
+                            <constraint firstItem="xi1-CL-sPR" firstAttribute="top" secondItem="GUb-NT-9Og" secondAttribute="top" constant="-44" id="ZPG-IO-5qU"/>
+                            <constraint firstItem="BRf-69-htG" firstAttribute="top" secondItem="526-kJ-mex" secondAttribute="bottom" constant="8.6666666666666856" id="cak-El-s4o"/>
+                            <constraint firstItem="BRf-69-htG" firstAttribute="centerY" secondItem="Yuj-OJ-6PP" secondAttribute="centerY" constant="30" id="fPp-I5-JDQ"/>
+                            <constraint firstItem="xi1-CL-sPR" firstAttribute="leading" secondItem="GUb-NT-9Og" secondAttribute="leading" id="nBq-VR-NDC"/>
+                            <constraint firstItem="xi1-CL-sPR" firstAttribute="bottom" secondItem="GUb-NT-9Og" secondAttribute="bottom" constant="41" id="sT5-hC-t5o"/>
+                            <constraint firstItem="GUb-NT-9Og" firstAttribute="trailing" secondItem="BRf-69-htG" secondAttribute="trailing" constant="68.5" id="y3r-Lp-7VQ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QvN-n7-njL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-192.80000000000001" y="140.39408866995075"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoCeibaSoftware-horizontal-Positivo" width="274" height="125"/>
+    </resources>
+</document>
